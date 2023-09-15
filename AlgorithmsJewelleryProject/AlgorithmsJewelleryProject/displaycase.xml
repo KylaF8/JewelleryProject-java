@@ -1,0 +1,93 @@
+<object-stream>
+  <Resources.LinkedList>
+    <head>
+      <data class="com.example.ca1.DisplayCase">
+        <linkedlistTray>
+          <head>
+            <data class="com.example.ca1.DisplayTray">
+              <trayID>Star</trayID>
+              <inlay>Black</inlay>
+              <width>10</width>
+              <depth>10</depth>
+              <linkedListItem>
+                <head>
+                  <data class="com.example.ca1.JewelleryItem">
+                    <jdescription>Ring</jdescription>
+                    <jtype>Ring</jtype>
+                    <gender>Female</gender>
+                    <price>22</price>
+                    <linkedListComponents>
+                      <head>
+                        <data class="com.example.ca1.JewelleryComponent">
+                          <ctype>Diamond</ctype>
+                          <cdescription>hhhhh</cdescription>
+                          <quantity>1</quantity>
+                          <quality>whhgg</quality>
+                        </data>
+                        <next>
+                          <data class="com.example.ca1.JewelleryComponent">
+                            <ctype>Diamond</ctype>
+                            <cdescription>hhhhh</cdescription>
+                            <quantity>1</quantity>
+                            <quality>whhgg</quality>
+                          </data>
+                        </next>
+                      </head>
+                      <nodes>2</nodes>
+                    </linkedListComponents>
+                  </data>
+                  <next>
+                    <data class="com.example.ca1.JewelleryItem">
+                      <jdescription>Ring</jdescription>
+                      <jtype>Bracelet</jtype>
+                      <gender>Female</gender>
+                      <price>22</price>
+                      <linkedListComponents>
+                        <head>
+                          <data class="com.example.ca1.JewelleryComponent">
+                            <ctype>Pearl</ctype>
+                            <cdescription>hhhhh</cdescription>
+                            <quantity>1</quantity>
+                            <quality>whhgg</quality>
+                          </data>
+                        </head>
+                        <nodes>1</nodes>
+                      </linkedListComponents>
+                    </data>
+                  </next>
+                </head>
+                <nodes>2</nodes>
+              </linkedListItem>
+            </data>
+            <next>
+              <data class="com.example.ca1.DisplayTray">
+                <trayID>iiii</trayID>
+                <inlay>Black</inlay>
+                <width>10</width>
+                <depth>10</depth>
+                <linkedListItem>
+                  <nodes>0</nodes>
+                </linkedListItem>
+              </data>
+            </next>
+          </head>
+          <nodes>2</nodes>
+        </linkedlistTray>
+        <caseID>Night</caseID>
+        <type>Wall-Mounted</type>
+        <lighting>Lit</lighting>
+      </data>
+      <next>
+        <data class="com.example.ca1.DisplayCase">
+          <linkedlistTray>
+            <nodes>0</nodes>
+          </linkedlistTray>
+          <caseID>ghhh</caseID>
+          <type>Wall-Mounted</type>
+          <lighting>Lit</lighting>
+        </data>
+      </next>
+    </head>
+    <nodes>2</nodes>
+  </Resources.LinkedList>
+</object-stream>
